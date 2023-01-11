@@ -11,7 +11,7 @@ const App =() => {
         if (window.location.pathname === '/') {
             navigation('/sign-up')
         }
-    }, [window.location.pathname])
+    }, [navigation])
     return (
         <div className="App">
             <Routes>
